@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo:5.0.15
+    image: mongo:7.0
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: 123456
